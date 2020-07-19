@@ -1,16 +1,43 @@
 {
-  "posts":[
+  "registerUsers": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "Ramchandra",
+      "email": "velipramchandra@gmail.com",
+      "password": "test12345",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test123456",
+      "id": 2
     }
   ],
-  "comments" : [
+  "login": {
+    "email": "test1@gmail.com",
+    "password": "ssssssssss",
+    "token": "id1"
+  },
+  "posts": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "postTitle": "Section1",
+      "postContent": "section"
+    },
+    {
+      "postTitle": "Section2",
+      "postContent": "section2",
+      "id": 2
+    },
+    {
+      "postTitle": "Section3",
+      "postContent": "section3",
+      "id": 3
+    },
+    {
+      "postTitle": "Section4",
+      "postContent": "section4",
+      "id": 4
     }
   ]
 }
